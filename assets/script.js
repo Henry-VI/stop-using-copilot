@@ -1,3 +1,4 @@
+console.log("nerd")
 function generateemail() {
   // Generate email
   const name = document.getElementById("name").value;
