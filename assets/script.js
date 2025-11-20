@@ -9,8 +9,7 @@ Sincerely,
 ${name}`;
   document.getElementById("email").innerText = email;
 
-  // show copy buttons
-  document.getElementById("sendemail").href = `mailto:info@vsb.bc.ca?subject=Recommending Removing Microsoft 365 Copilot in Schools&body=${email.replace('\n', '%0D%0A')}`
+  // show copy button
   document.getElementById("emailbuttons").style.display = "block";
 }
 
