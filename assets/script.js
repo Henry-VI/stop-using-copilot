@@ -8,6 +8,24 @@ You can learn more at https://stopcopilot.henryvaniersel.ca
 Sincerely,
 
 ${name}`;
+  if (school) {
+    document.getElementById("school").style.borderColor = "#66c6f9"
+  } else {
+    document.getElementById("school").style.borderColor = "indianred"
+    if (!name) {
+      document.getElementById("name").style.borderColor = "indianred"
+    }
+    return
+  }
+  if (!name) {
+    document.getElementById("name").style.borderColor = "indianred"
+    if (!school) {
+      document.getElementById("school").style.borderColor = "indianred"
+    }
+    return
+  } else {
+    document.getElementById("name").style.borderColor = "#66c6f9"
+  }
   document.getElementById("email").innerText = email;
 
   // show copy button
