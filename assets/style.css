@@ -168,6 +168,18 @@ a {
   color: #00aaff;
 }
 
+#timeline {
+  text-align: center;
+}
+
+.timeline-item em {
+  color: gray;
+}
+
+#desktop-timeline-line {
+  display: none;
+}
+
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -217,5 +229,22 @@ a {
   }
   footer {
     margin-bottom: 4em;
+  }
+
+  .timeline-item {
+    width: 50%;
+  }
+
+  #timeline-item-2 {
+    margin-left: auto;
+  }
+
+  #desktop-timeline-line {
+    display: initial;
+    position: absolute;
+    transform: translateY(-6rem) translateX(-2rem);
+  }
+  #mobile-timeline-line {
+    display: none;
   }
 }
