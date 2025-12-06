@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Dear VSB: Please Don't Use Microsoft Copilot AI">
-    <meta name="author" content="Henry Van Iersel">
-    <title>Stop Microsoft Copilot!</title>
-    <link href="assets/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav>
+<script>
+  import * as m from "$lib/paraglide/messages"
+  import { setLocale, getLocale } from "$lib/paraglide/runtime";
+  function changeLanguage() {
+    if (getLocale() == "en-ca") {
+      setLocale("fr-ca")
+    } else {
+      setLocale("en-ca")
+    }
+  }
+</script>
+<nav>
       <img src="assets/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
       <b id="title-nav">Stop Microsoft Copilot!</b>
       <span id="items">
@@ -52,7 +52,7 @@
       <p style="text-align: center; width: 50%; margin: auto; margin-bottom: 2em;">There are two ways. The first way is <b>by filling out <a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">this</a> form.</b> It's for submitting feedback on their AI policy, and you can use it until the form is closed. The other way is <b>by sending an e-mail to <u>info@vsb.bc.ca</u> using the e-mail generator below!</b></p>
       <form>
         <label for="school">School</label>
-        <input type="text" placeholder="Kitsilano Secondary" id="school" required>
+        <input type="text" placeholder="Kitsilano Secondary" id="school" required="">
         <label for="position">I am a...</label>
         <select name="position" id="position">
           <option value="student">Student</option>
@@ -60,13 +60,13 @@
           <option value="teacher">Teacher</option>
         </select>
         <label for="name">Full Name (Name known by school)</label>
-        <input type="text" placeholder="Jack Khatsahlano" id="name" required>
-        <input type="button" value="Submit" onclick="generateemail()">
+        <input type="text" placeholder="Jack Khatsahlano" id="name" required="">
+        <input type="button" value="Submit" onclick={console.log('submit')}>
         <h3>SEND E-MAIL TO <u>info@vsb.bc.ca</u></h3>
       </form>
       <div class="emailbuttons" style="display: none;" id="emailbuttons">
         <b>E-Mail Generated! ✨</b><br>
-        <a onclick="copyemail()">Copy</a>
+        <a onclick={console.log('copy')}>Copy</a>
         <h1 style="margin: 0;">PREVIEW E-MAIL:</h1>
         <div id="email"></div>
       </div>
@@ -95,20 +95,10 @@ Sincerely,
       </div>
       <!-- I hate svgs so much -->
       <svg class="margin: auto;" width="32" id="mobile-timeline-line">
-        <path
-       style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
-       d="m 16,16 0,128"
-       id="path1"
-       sodipodi:nodetypes="cc"
-       inkscape:label="path1" />
+        <path style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;" d="m 16,16 0,128" id="path1" sodipodi:nodetypes="cc" inkscape:label="path1"></path>
       </svg>
       <svg class="margin: auto;" width="32" id="desktop-timeline-line" height="256">
-        <path
-       style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;"
-       d="m 16,16 0,224"
-       id="path1"
-       sodipodi:nodetypes="cc"
-       inkscape:label="path1" />
+        <path style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;" d="m 16,16 0,224" id="path1" sodipodi:nodetypes="cc" inkscape:label="path1"></path>
       </svg>
       <div class="timeline-item">
         <h2>Website is Created</h2>
@@ -120,17 +110,14 @@ Sincerely,
       E-mail Me! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>
       <div style="margin-top: 1em; color: gray;"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
     </footer>
-    <script src="assets/script.js"></script>
     <!-- Default Statcounter code for Stop Copilot!
-https://stopcopilot.henryvaniersel.ca -->
+https://stopcopilot.henryvaniersel.ca
 <script type="text/javascript">
 var sc_project=13187765; 
 var sc_invisible=1; 
 var sc_security="01f1429b"; 
 </script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<!-- End of Statcounter Code -->
-  </body>
-</html>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async=""></script>
+ End of Statcounter Code -->
+<h1>{m.hello_world({"name": "World"})}</h1>
+<button onclick={changeLanguage()}>change lang</button>
