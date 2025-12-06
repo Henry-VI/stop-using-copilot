@@ -10,7 +10,7 @@
   }
 </script>
 <nav>
-      <img src="assets/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
+      <img src="favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
       <b id="title-nav">Stop Microsoft Copilot!</b>
       <span id="items">
         <a href="#">Start</a>
@@ -26,7 +26,7 @@
     <div style="text-align: center; margin-bottom: 2em;">
       <b>Please stop using Microsoft Copilot in schools</b>.
       <div>(Open Petition)</div>
-      <img src="assets/favicon.png" width="33%" alt="Microsoft 365 Copilot logo with a red X over it.">
+      <img src="favicon.png" width="33%" alt="Microsoft 365 Copilot logo with a red X over it.">
     </div>
     </div>
     <h1 style="text-align: center; margin: 0; color: white; background-color: #155dfc; padding-bottom: 1em;">Why?</h1>
