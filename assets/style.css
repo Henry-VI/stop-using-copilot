@@ -262,16 +262,16 @@ a {
     width: 50%;
   }
 
-  #timeline-item-2 {
+  .timeline-item-2 {
     margin-left: auto;
   }
 
   #desktop-timeline-line {
     display: initial;
     position: absolute;
-    transform: translateY(-6rem) translateX(-2rem);
+    transform: translateY(-18.5rem) translateX(-1rem);
   }
-  #mobile-timeline-line {
+  #mobile-timeline-line-1, #mobile-timeline-line-2 {
     display: none;
   }
 }
