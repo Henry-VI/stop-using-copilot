@@ -51,6 +51,9 @@ function copyemail() {
   navigator.clipboard.writeText(document.getElementById("email").innerText)
 }
 </script>
+<svelte:head>
+  <title>Stop Microsoft Copilot!</title>
+</svelte:head>
 <nav>
       <img src="favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
       <b id="title-nav">Stop Microsoft Copilot!</b>
