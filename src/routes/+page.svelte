@@ -143,9 +143,7 @@ Sincerely,
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
        d="m 16,16 0,128"
-       id="path1"
-       sodipodi:nodetypes="cc"
-       inkscape:label="path1" />
+       id="path1" />
       </svg>
       <div class="timeline-item timeline-item-2">
         <h2>Student Forum Held</h2>
@@ -159,17 +157,13 @@ Sincerely,
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
        d="m 16,16 0,128"
-       id="path1"
-       sodipodi:nodetypes="cc"
-       inkscape:label="path1" />
+       id="path1" />
       </svg>
       <svg width="32" id="desktop-timeline-line" height="512">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;"
        d="m 16,16 0,448"
-       id="path1"
-       sodipodi:nodetypes="cc"
-       inkscape:label="path1" />
+       id="path1" />
       </svg>
       <div class="timeline-item">
         <h2>Website is Created</h2>
