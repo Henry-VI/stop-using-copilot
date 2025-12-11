@@ -139,7 +139,7 @@ Sincerely,
         <div><em>December 1st, 2025</em></div>
         <div>The VSB releases a rough draft of their planned AI policy open to feedback, accessible <a target="_blank" href="https://forms.office.com/r/zqX4NMaUqE">here</a>. The policy would create a school system heavily involving AI, specifying use of "school-approved platforms", which likely means exclusively Copilot. A static version of the policy is listed <a href="https://gist.github.com/Henry-VI/c267ed0f16770560962cf9efaa132cd8" target="_blank">here</a> for archival purposes.</div>
       </div>
-      <svg class="margin: auto;" width="32" id="mobile-timeline-line-1">
+      <svg width="32" id="mobile-timeline-line-1">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
        d="m 16,16 0,128"
@@ -155,7 +155,7 @@ Sincerely,
         </div>
       </div>
       <!-- I hate svgs so much -->
-      <svg class="margin: auto;" width="32" id="mobile-timeline-line-2">
+      <svg width="32" id="mobile-timeline-line-2">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
        d="m 16,16 0,128"
@@ -163,7 +163,7 @@ Sincerely,
        sodipodi:nodetypes="cc"
        inkscape:label="path1" />
       </svg>
-      <svg class="margin: auto;" width="32" id="desktop-timeline-line" height="512">
+      <svg width="32" id="desktop-timeline-line" height="512">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;"
        d="m 16,16 0,448"

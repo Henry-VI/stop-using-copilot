@@ -191,6 +191,7 @@ footer {
 }
 a {
   color: #00aaff;
+  text-decoration: underline;
 }
 
 #timeline {
@@ -203,6 +204,10 @@ a {
 
 #desktop-timeline-line {
   display: none;
+}
+
+#mobile-timeline-line-1, #mobile-timeline-line-2 {
+  display: inline-block;
 }
 
 h2 {
@@ -289,9 +294,6 @@ h3 {
   }
   #mobile-timeline-line-1, #mobile-timeline-line-2 {
     display: none;
-  }
-  a {
-    text-decoration: underline;
   }
 }
 
