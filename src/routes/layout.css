@@ -60,7 +60,6 @@ nav #items {
 
 .card {
   width: 75vw;
-  height: 75vw;
   background-color: whitesmoke;
   padding: 12px;
   margin: auto;
@@ -220,6 +219,13 @@ h3 {
   font-weight: bold;
 }
 
+#recruitment {
+  text-align: center;
+  background-color: lightcoral;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -253,6 +259,10 @@ h3 {
   #email {
     background-color: #404040;
     color: whitesmoke;
+  }
+
+  #recruitment {
+    background-color: indianred;
   }
 }
 
@@ -294,6 +304,12 @@ h3 {
   }
   #mobile-timeline-line-1, #mobile-timeline-line-2 {
     display: none;
+  }
+
+  #recruitment {
+    width: 50%;
+    margin: 1em auto;
+    border-radius: 12px;
   }
 }
 

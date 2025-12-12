@@ -1,4 +1,5 @@
 <script>
+  import { List } from "svelte-bootstrap-icons";
   /*import * as m from "$lib/paraglide/messages"
   import { setLocale, getLocale } from "$lib/paraglide/runtime";
   function changeLanguage() {
@@ -63,8 +64,11 @@ function copyemail() {
         <a href="#emailsection">Take Action</a>
         <a href="#timeline">Timeline</a>
       </span>
+      <div class="bg-gradient-to-r from-green-300 to-green-400 h-2/3 rounded-md mr-2 content-center">
+        <a href="/about" class="!text-black px-2">About</a>
+      </div>
     </nav>
-    <div id="banner-update"><a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">The VSB has published a draft AI policy that allows feedback. Click here to participate.</a></div>
+    <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
     <div id="progress"></div>
     <div id="opening">
     <h1 id="title">Dear VSB,</h1>
@@ -94,6 +98,10 @@ function copyemail() {
     </div>
     <div id="emailsection">
       <h1 style="text-align: center; margin-top: 0;">How Do We Stop Them?</h1>
+      <div id="recruitment">
+        <h3>Help Wanted!</h3>
+        <div>Are you a student in Vancouver who supports our mission? Volunteer your support & shoot us an e-mail! (<b><a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b>)</div>
+      </div>
       <p style="text-align: center; width: 50%; margin: auto; margin-bottom: 2em;">There are two ways. The first way is <b>by filling out <a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">this</a> form.</b> It's for submitting feedback on their AI policy, and you can use it until the form is closed. The other way is <b>by sending an e-mail to <u>info@vsb.bc.ca</u> using the e-mail generator below!</b></p>
       <form>
         <label for="school">School</label>
