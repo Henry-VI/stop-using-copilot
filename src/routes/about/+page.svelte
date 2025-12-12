@@ -35,7 +35,7 @@
   <div class="bg-gradient-to-r from-blue-300 to-blue-400 dark:from-blue-500 dark:to-blue-600 py-24 md:w-1/2 md:mx-auto md:rounded-lg md:my-4">
     <h2>Henry Van Iersel</h2>
     <div class="text-neutral-600 dark:text-neutral-800"><em>Grade 10, Kitsilano Secondary</em></div>
-    <div><b>Roles: Web Development, Management</b></div>
+    <div><b>Roles: Management, Web Development</b></div>
   </div>
   <div class="bg-gradient-to-r from-indigo-300 to-indigo-400 dark:from-indigo-500 dark:to-indigo-600 py-24 md:w-1/2 md:mx-auto md:rounded-lg md:my-4">
     <h2>Evan Yelizarov Makogon</h2>
