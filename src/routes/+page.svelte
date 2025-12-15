@@ -1,5 +1,4 @@
 <script>
-  import { List } from "svelte-bootstrap-icons";
   /*import * as m from "$lib/paraglide/messages"
   import { setLocale, getLocale } from "$lib/paraglide/runtime";
   function changeLanguage() {
@@ -100,9 +99,9 @@ function copyemail() {
       <h1 style="text-align: center; margin-top: 0;">How Do We Stop Them?</h1>
       <div id="recruitment">
         <h3>Help Wanted!</h3>
-        <div>Are you a student in Vancouver who supports our mission? Volunteer your support & shoot us an e-mail! (<b><a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b>)</div>
+        <div>Are you a student in Vancouver who supports our mission? Volunteer your support & shoot us an email! (<b><a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b>)</div>
       </div>
-      <p style="text-align: center; width: 50%; margin: auto; margin-bottom: 2em;">There are two ways. The first way is <b>by filling out <a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">this</a> form.</b> It's for submitting feedback on their AI policy, and you can use it until the form is closed. The other way is <b>by sending an e-mail to <u>info@vsb.bc.ca</u> using the e-mail generator below!</b></p>
+      <p style="text-align: center; width: 50%; margin: auto; margin-bottom: 2em;">There are two ways. The first way is <b>by filling out <a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">this</a> form.</b> It's for submitting feedback on their AI policy, and you can use it until the form is closed. The other way is <b>by sending an email to <u>info@vsb.bc.ca</u> using the email generator below!</b></p>
       <form>
         <label for="school">School</label>
         <input type="text" placeholder="Kitsilano Secondary" id="school" required="">
@@ -116,12 +115,12 @@ function copyemail() {
         <label for="name">Full Name (Name known by school)</label>
         <input type="text" placeholder="Jack Khatsahlano" id="name" required="">
         <input type="button" value="Submit" onclick={generateemail}>
-        <h3>SEND E-MAIL TO <u>info@vsb.bc.ca</u></h3>
+        <h3>SEND EMAIL TO <u>info@vsb.bc.ca</u></h3>
       </form>
       <div class="emailbuttons" style="display: none;" id="emailbuttons">
-        <b>E-Mail Generated! ✨</b><br>
+        <b>Email Generated! ✨</b><br>
         <a onclick={copyemail}>Copy</a>
-        <h1 style="margin: 0;">PREVIEW E-MAIL:</h1>
+        <h1 style="margin: 0;">PREVIEW EMAIL:</h1>
         <div id="email"></div>
       </div>
       <noscript>
@@ -181,8 +180,9 @@ Sincerely,
     </div>
 
     <footer>
-      E-mail Me! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>
-      <div style="margin-top: 1em; color: gray;"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
+      Email Us! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>
+      <div class="mt-4 text-neutral-500"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
+      <div class="text-neutral-500 italic">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. If sourcing this page, please credit us!</div>
     </footer>
     <!-- Default Statcounter code for Stop Copilot!
 https://stopcopilot.henryvaniersel.ca
