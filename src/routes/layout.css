@@ -226,6 +226,40 @@ h3 {
   margin: 1em 0;
 }
 
+blockquote {
+  background-color: lightgray;
+  padding: 1em;
+  border-radius: 12px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+img {
+  display: inline;
+}
+
+
+.blog {
+  white-space: pre-line;
+  margin: auto;
+  margin-top: 64px;
+  width: 90%
+}
+
+.blog img {
+  border-radius: 12px;
+  margin: 1em 0;
+}
+
+.authour {
+  margin-top: 1em;
+}
+
+
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -263,6 +297,9 @@ h3 {
 
   #recruitment {
     background-color: indianred;
+  }
+  blockquote {
+    background-color: #404040;
   }
 }
 
@@ -311,12 +348,7 @@ h3 {
     margin: 1em auto;
     border-radius: 12px;
   }
-}
-
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-}
-img {
-  display: inline;
+  .blog {
+    width: 50%;
+  }
 }

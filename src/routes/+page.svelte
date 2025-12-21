@@ -52,22 +52,21 @@ function copyemail() {
 }
 </script>
 <svelte:head>
-  <title>Stop Microsoft Copilot!</title>
+  <title>Home | Stop Microsoft Copilot!</title>
 </svelte:head>
 <nav>
-      <img src="favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
-      <b id="title-nav">Stop Microsoft Copilot!</b>
-      <span id="items">
-        <a href="#">Start</a>
-        <a href="#cards">Why?</a>
-        <a href="#emailsection">Take Action</a>
-        <a href="#timeline">Timeline</a>
-      </span>
-      <div class="bg-gradient-to-r from-green-300 to-green-400 h-2/3 rounded-md mr-2 content-center">
-        <a href="/about" class="!text-black px-2">About</a>
-      </div>
-    </nav>
-    <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
+  <a href="/">
+    <img src="/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
+  </a>
+  <b id="title-nav">Stop Microsoft Copilot!</b>
+  <span id="items">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/blog">Blog</a>
+  </span>
+</nav>
+
+   <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
     <div id="progress"></div>
     <div id="opening">
     <h1 id="title">Dear VSB,</h1>

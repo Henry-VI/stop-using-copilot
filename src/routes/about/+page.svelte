@@ -1,20 +1,17 @@
 <svelte:head>
-  <title>About - Stop Microsoft Copilot!</title>
+  <title>About | Stop Microsoft Copilot!</title>
 </svelte:head>
 
 <nav>
   <a href="/">
-    <img src="favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
+    <img src="/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
   </a>
   <b id="title-nav">Stop Microsoft Copilot!</b>
   <span id="items">
-    <a href="#">Start</a>
-    <a href="#goal">Goal</a>
-    <a href="#team">Team</a>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/blog">Blog</a>
   </span>
-      <div class="bg-gradient-to-r from-green-300 to-green-400 h-2/3 rounded-md mr-2 content-center">
-        <a href="/" class="!text-black px-2">Home</a>
-      </div>
 </nav>
 <div class="bg-gradient-to-r from-red-300 to-red-400 mt-16 dark:from-red-500 dark:to-red-600 text-center py-12">
   <h1>About Us</h1>
