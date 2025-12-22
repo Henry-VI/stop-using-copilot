@@ -24,9 +24,9 @@
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
   </span>
-  <div>
-    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Mastodon class="inline text-neutral-500"/></a>
-    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Discord class="inline text-neutral-500"/></a>
+  <div class="w-14 md:w-auto">
+    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Mastodon class="inline text-neutral-500" width={20} height={20}/></a>
+    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Discord class="inline text-neutral-500" width={20} height={20}/></a>
   </div>
 </nav>
 {@render children()}
