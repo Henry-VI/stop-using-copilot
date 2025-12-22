@@ -328,6 +328,7 @@ img {
 
   .timeline-item {
     width: 50%;
+    margin-bottom: 8em;
   }
 
   .timeline-item-2 {
@@ -337,7 +338,7 @@ img {
   #desktop-timeline-line {
     display: initial;
     position: absolute;
-    transform: translateY(-20rem) translateX(-0.75rem);
+    transform: translateY(-50rem) translateX(-0.75rem);
   }
   #mobile-timeline-line-1, #mobile-timeline-line-2 {
     display: none;

@@ -1,18 +1,6 @@
 <svelte:head>
   <title>About | Stop Microsoft Copilot!</title>
 </svelte:head>
-
-<nav>
-  <a href="/">
-    <img src="/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
-  </a>
-  <b id="title-nav">Stop Microsoft Copilot!</b>
-  <span id="items">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-  </span>
-</nav>
 <div class="bg-gradient-to-r from-red-300 to-red-400 mt-16 dark:from-red-500 dark:to-red-600 text-center py-12">
   <h1>About Us</h1>
   <div>
@@ -45,8 +33,3 @@
     <div><b>If you're interested in volunteering with us, email <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b></div>
   </div>
 </div>
-<footer>
-  <div>Email Us! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></div>
-    <div class="text-neutral-500 mt-4"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
-    <div class="text-neutral-500 italic">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>.</div>
-</footer>

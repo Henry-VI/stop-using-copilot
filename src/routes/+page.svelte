@@ -54,18 +54,6 @@ function copyemail() {
 <svelte:head>
   <title>Home | Stop Microsoft Copilot!</title>
 </svelte:head>
-<nav>
-  <a href="/">
-    <img src="/favicon.png" width="32px" alt="Microsoft 365 Copilot logo with a red X over it.">
-  </a>
-  <b id="title-nav">Stop Microsoft Copilot!</b>
-  <span id="items">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-  </span>
-</nav>
-
    <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
     <div id="progress"></div>
     <div id="opening">
@@ -140,6 +128,17 @@ Sincerely,
     <div id="timeline">
       <h1>Timeline</h1>
       <div>Information about the latest happenings in relation to the VSB &amp; AI.</div>
+      <div class="timeline-item timeline-item-2">
+        <h2>Winter Break Begins</h2>
+        <div><em>December 20th, 2025</em></div>
+        <div>Winter break starts, and happens to begin on the same day this website gets unblocked on school WiFi. (Domains &lt;30 days old are automatically blocked). This causes a prolonged pause on reaching students, but after winter break ends, accessing the website will be much easier when in the vicinity of a school.</div>
+      </div>
+      <svg width="32" id="mobile-timeline-line-1">
+        <path
+       style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
+       d="m 16,16 0,128"
+       id="path1" />
+      </svg>
       <div class="timeline-item">
         <h2>VSB Creates AI Policy Draft</h2>
         <div><em>December 1st, 2025</em></div>
@@ -165,10 +164,10 @@ Sincerely,
        d="m 16,16 0,128"
        id="path1" />
       </svg>
-      <svg width="32" id="desktop-timeline-line" height="512">
+      <svg width="32" id="desktop-timeline-line" height="1000">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;"
-       d="m 16,16 0,448"
+       d="m 16,16 0,1000"
        id="path1" />
       </svg>
       <div class="timeline-item">
@@ -178,11 +177,7 @@ Sincerely,
       </div>
     </div>
 
-    <footer>
-      Email Us! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>
-      <div class="mt-4 text-neutral-500"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
-      <div class="text-neutral-500 italic">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. If sourcing this page, please credit us!</div>
-    </footer>
+
     <!-- Default Statcounter code for Stop Copilot!
 https://stopcopilot.henryvaniersel.ca
 <script type="text/javascript">
