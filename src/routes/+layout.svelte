@@ -25,16 +25,16 @@
     <a href="/blog">Blog</a>
   </span>
   <div>
-    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Discord class="inline text-neutral-500"/></a>
-    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Mastodon class="inline text-neutral-500"/></a>
+    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Mastodon class="inline text-neutral-500"/></a>
+    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Discord class="inline text-neutral-500"/></a>
   </div>
 </nav>
 {@render children()}
 <footer>
   Email Us! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>
   <div>
-    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Discord class="inline text-neutral-500"/></a>
-    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Mastodon class="inline text-neutral-500"/></a>
+    <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Mastodon class="inline text-neutral-500"/></a>
+    <a href="https://discord.gg/vqnSCvPn" target="_blank"><Discord class="inline text-neutral-500"/></a>
   </div>
   <div class="mt-4 text-neutral-500"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
   <div class="text-neutral-500 italic">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. If sourcing this page, please credit us!</div>
