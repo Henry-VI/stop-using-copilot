@@ -78,7 +78,7 @@ function copyemail() {
       </div>
       <div class="card">
         <h1 style="margin: 0; text-align: center;">🪟</h1>
-        <div class="card-title">3. Microsoft Just Sucks</div>
+        <div class="card-title">3. Microsoft Doesn't Value Security</div>
         <div class="card-description">Can you think of a single month that's gone by without having any problems with Microsoft's products? Glitches aside, this is an American multi-trillion dollar company with a history of major security vulnerabilities in its closed-source software, all of which is a recipe for student data being leaked.</div>
       </div>
     </div>
