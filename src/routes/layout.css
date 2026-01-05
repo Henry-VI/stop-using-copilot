@@ -338,7 +338,7 @@ img {
   #desktop-timeline-line {
     display: initial;
     position: absolute;
-    transform: translateY(-50rem) translateX(-0.75rem);
+    transform: translateY(-68rem) translateX(-0.75rem);
   }
   #mobile-timeline-line-1, #mobile-timeline-line-2 {
     display: none;
