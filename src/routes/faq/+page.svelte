@@ -14,4 +14,4 @@ Microsoft is an American company, and American companies must comply with US dat
 <div class="text-xl text-center">
   What can I follow for updates?
 </div>
-<blockquote>Check out our <a href="https://socialbc.ca/@vsb_copilot" target="_blank">Mastodon</a> or <a href="">Bluesky</a>! In these places, we post updates every time something important comes up.</blockquote>
+<blockquote>Check out our <a href="https://socialbc.ca/@vsb_copilot" target="_blank">Mastodon</a> or <a href="https://bsky.app/profile/vsb-copilot.socialbc.ca.ap.brid.gy" target="_blank">Bluesky</a>! In these places, we post updates every time something important comes up.</blockquote>
