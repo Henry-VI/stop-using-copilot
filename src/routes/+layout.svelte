@@ -22,13 +22,14 @@
   <span id="items">
     <a href="/">Home</a>
     <a href="/about">About</a>
-    <a href="/blog">Blog</a>
+    <a href="/faq">FAQ</a>
   </span>
   <div class="w-14 md:w-auto">
     <a href="https://socialbc.ca/@vsb_copilot" target="_blank"><Mastodon class="inline text-neutral-500" width={20} height={20}/></a>
     <a href="https://bsky.app/profile/vsb-copilot.socialbc.ca.ap.brid.gy" target="_blank"><Bluesky class="inline text-neutral-500" width={20} height={20}/></a>
   </div>
 </nav>
+<div id="progress"></div>
 {@render children()}
 <footer>
   Email Us! - <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a>

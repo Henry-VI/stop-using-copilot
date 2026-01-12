@@ -55,7 +55,6 @@ function copyemail() {
   <title>Home | Stop Microsoft Copilot!</title>
 </svelte:head>
    <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
-    <div id="progress"></div>
     <div id="opening">
     <h1 id="title">Dear VSB,</h1>
     <div style="text-align: center; margin-bottom: 2em;">
