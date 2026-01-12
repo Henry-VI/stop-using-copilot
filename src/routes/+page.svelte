@@ -100,7 +100,7 @@ function copyemail() {
         </select>
         <label for="name">Full Name (Name known by school)</label>
         <input type="text" placeholder="Jack Khatsahlano" id="name" required="">
-        <input type="button" value="Submit" onclick={generateemail}>
+        <input type="button" value="Generate Template" onclick={generateemail}>
         <h3>SEND EMAIL TO <u>info@vsb.bc.ca</u></h3>
       </form>
       <div class="emailbuttons" style="display: none;" id="emailbuttons">
