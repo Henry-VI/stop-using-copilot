@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>FAQ | Stop Using Copilot!</title>
+</svelte:head>
 <h2 class="mt-16 text-center">Frequently Asked Questions</h2>
 <div class="text-xl text-center">
   I'm a parent/adult Vancouver citizen & want to support this mission. Where should I go?
