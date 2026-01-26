@@ -13,7 +13,7 @@
 </div>
 <div class="bg-gradient-to-r from-green-300 to-green-400 dark:from-green-600 dark:to-green-700 py-8 text-center md:w-2/3 md:mx-auto md:rounded-lg md:my-4" id="team">
   <h2>Team Members</h2>
-  <div>We're currently a team of 2, but seeking more volunteers. (Email <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a> if interested). </div>
+  <div>We're currently a team of 3.</div>
 </div>
 <hr class="hidden md:block text-neutral-200 dark:text-neutral-500">
 <div class="text-center">
@@ -28,8 +28,8 @@
     <div><b>Roles: Management, Spreading Awareness</b></div>
   </div>
   <div class="bg-gradient-to-r from-violet-300 to-violet-400 dark:from-violet-500 dark:to-violet-600 py-24 md:w-1/2 md:mx-auto md:rounded-lg md:my-4">
-    <h2>You?</h2>
-    <div class="text-neutral-600 dark:text-neutral-800"><em>Grade ??, ??????????? Secondary</em></div>
-    <div><b>If you're interested in volunteering with us, email <a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b></div>
+    <h2>Peter Leaney</h2>
+    <div class="text-neutral-600 dark:text-neutral-800"><em>Grade 12, Kitsilano Secondary</em></div>
+    <div><b>Roles: TBD</b></div>
   </div>
 </div>

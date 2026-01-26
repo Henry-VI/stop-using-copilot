@@ -54,7 +54,7 @@ function copyemail() {
 <svelte:head>
   <title>Home | Stop Microsoft Copilot!</title>
 </svelte:head>
-   <div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>
+   <!--<div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>-->
     <div id="opening">
     <h1 id="title">Dear VSB,</h1>
     <div style="text-align: center; margin-bottom: 2em;">
@@ -83,10 +83,10 @@ function copyemail() {
     </div>
     <div id="emailsection">
       <h1 style="text-align: center; margin-top: 0;">How Do We Stop Them?</h1>
-      <div id="recruitment">
+      <!--<div id="recruitment">
         <h3>Help Wanted!</h3>
         <div>Are you a student in Vancouver who supports our mission? Volunteer your support & shoot us an email! (<b><a href="mailto:stopcopilot@henryvaniersel.ca">stopcopilot@henryvaniersel.ca</a></b>)</div>
-      </div>
+      </div>-->
       <p style="text-align: center; width: 50%; margin: auto; margin-bottom: 2em;">There are two ways. The first way is <b>by filling out <a href="https://forms.office.com/r/zqX4NMaUqE" target="_blank">this</a> form.</b> It's for submitting feedback on their AI policy, and you can use it until the form is closed. The other way is <b>by sending an email to <u>info@vsb.bc.ca</u> using the email generator below!</b></p>
       <form>
         <label for="school">School</label>
