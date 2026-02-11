@@ -12,6 +12,12 @@
 </script>
 
 <svelte:head>
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="favicon.png">
+  <meta property="og:title" content="Stop Microsoft Copilot!">
+  <meta property="description" content="Dear VSB: Please stop using Microsoft Copilot AI in schools." />
+  <meta property="og:description" content="Dear VSB: Please stop using Microsoft Copilot AI in schools." />
+  <meta property="og:site_name" content="Stop Microsoft Copilot!">
   <title>Page Not Found | Stop Microsoft Copilot!</title>
 </svelte:head>
 <nav>
