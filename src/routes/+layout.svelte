@@ -49,5 +49,5 @@
   </div>
   <div class="mt-4 text-neutral-500"><em>This website was inspired by <a href="https://fightchatcontrol.eu" target="_blank">fightchatcontrol.eu</a> (just a bit more scuffed)</em></div>
   <div class="text-neutral-500 italic">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. If sourcing this page, please credit us!</div>
-  <div class="text-neutral-500 italic">Source code licensed under the MIT license. <a href="https://github.com/Henry-VI/stop-microsoft-copilot">View it here.</a></div>
+  <div class="text-neutral-500 italic">Source code licensed under the MIT license. <a href="https://github.com/Henry-VI/stop-using-copilot">View it here.</a></div>
 </footer>
