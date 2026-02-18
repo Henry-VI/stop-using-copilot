@@ -30,6 +30,6 @@
   <div class="bg-gradient-to-r from-violet-300 to-violet-400 dark:from-violet-500 dark:to-violet-600 py-24 md:w-1/2 md:mx-auto md:rounded-lg md:my-4">
     <h2>Peter Leaney</h2>
     <div class="text-neutral-600 dark:text-neutral-800"><em>Grade 12, Kitsilano Secondary</em></div>
-    <div><b>Roles: TBD</b></div>
+    <div><b>Roles: Media Contact/Spreading Awareness</b></div>
   </div>
 </div>
