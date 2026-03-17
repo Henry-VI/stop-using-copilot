@@ -127,10 +127,21 @@ Sincerely,
     <div id="timeline">
       <h1>Timeline</h1>
       <div>Information about the latest happenings in relation to the VSB &amp; AI.</div>
-      <div class="timeline-item timeline-item-2">
+      <div class="timeline-item">
         <h2>VSB Rolls Out Copilot</h2>
         <div><em>Spring, 2026</em></div>
         <div>The school board is set to release Copilot in Secondary schools <a href="https://youtu.be/qcOn865EDLo" target="_blank">this spring</a>. The interview where this was explained is very interesting, you can <a href="https://www.aicaution.ca/news/cbc-interview-with-christina-walker/" target="_blank">read more here</a>.</div>
+      </div>
+      <svg width="32" id="mobile-timeline-line-1">
+        <path
+       style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-dasharray: 8px;stroke-opacity: 0.5;"
+       d="m 16,16 0,128"
+       id="path1" />
+      </svg>
+      <div class="timeline-item timeline-item-2">
+        <h2>Spring Break Begins</h2>
+        <div><em>March 14th, 2026</em></div>
+        <div>Spring break puts yet another pause on raising awareness, but it gives us a space of time to reorganize things in the background. Stay tuned.</div>
       </div>
       <svg width="32" id="mobile-timeline-line-1">
         <path
@@ -185,10 +196,10 @@ Sincerely,
        d="m 16,16 0,128"
        id="path1" />
       </svg>
-      <svg width="32" id="desktop-timeline-line" height="1600">
+      <svg width="32" id="desktop-timeline-line" height="1700">
         <path
        style="fill:#00aaff;fill-opacity:1;stroke:#00aaff;stroke-width:4;stroke-linecap:round;stroke-opacity:0.5;stroke-dasharray: 8px;"
-       d="m 16,16 0,1600"
+       d="m 16,16 0,1700"
        id="path1" />
       </svg>
       <div class="timeline-item">
