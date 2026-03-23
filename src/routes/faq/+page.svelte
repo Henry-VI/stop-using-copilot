@@ -5,7 +5,7 @@
 <div class="text-xl text-center">
   I'm a parent/adult Vancouver citizen & want to support this mission. Where should I go?
 </div>
-<blockquote>The group <a href="https://noai.school" target="_blank">noai.school</a> is a parent initiative worth looking into. Whilst having primarily a global focus, they are also <a href="https://noai.school/vancouver" target="_blank">focusing on Vancouver</a> with plenty of information on petitions to sign locally. You can also go back to our <a href="https://stopcopilot.henryvaniersel.ca">main page</a> & fill out the form as a parent if you want to!</blockquote>
+<blockquote>The group <a href="https://aicaution.ca" target="_blank">PACES Vancouver</a> is a parent initiative worth looking into. They've got helpful sections about what specifically makes AI bad and other similar things for you to check out. You can also go back to our <a href="https://stopcopilot.henryvaniersel.ca">main page</a> & fill out the form as a parent if you want to!</blockquote>
 <div class="text-xl text-center">
   I'm not convinced. Can you tell me more about why AI is so bad?
 </div>
