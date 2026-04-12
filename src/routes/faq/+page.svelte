@@ -11,7 +11,7 @@
 </div>
 <blockquote>
 It's worth understanding the fundamental reality that AI is not actually beneficial for learning. It has been repeatedly shown to not be helpful and actually damage student problem solving ability.<br>
-<a href="http://archive.today/LjPyo" target="_blank">AI's training has been shown to be incredibly damaging</a> to those who worked on it. There is also a severe environmental cost: some back of the napkin math suggests that a single planned AI datacentre will use more electricity yearly than the city of San Fransisco (<em>Empire of AI by Karen Hao</em>), producing a strong argument for environmentalists to want to avoid AI entirely.<br>
+<a href="http://archive.today/LjPyo" target="_blank">AI's training has been shown to be incredibly damaging</a> to those who worked on it. There is also a severe environmental cost: AI datacentres right now use more than the entire electricity demand of Canada, producing a strong argument for environmentalists to want to avoid AI entirely.<br>
 Microsoft is an American company, and American companies must comply with US data law, meaning <a href="https://www.digitaljournal.com/tech-science/microsoft-says-u-s-law-takes-precedence-over-canadian-data-sovereignty/article" target="_blank">the US has full access to all student data collected by Microsoft</a>. Obviously, this creates some amount of concern.
 </blockquote>
 <div class="text-xl text-center">
