@@ -54,7 +54,7 @@ function copyemail() {
 <svelte:head>
   <title>Home | Stop Microsoft Copilot!</title>
 </svelte:head>
-   <!--<div id="banner-update"><a href="mailto:stopcopilot@henryvaniersel.ca">We're looking for volunteers! If you're curious, email stopcopilot@henryvaniersel.ca.</a></div>-->
+   <div id="banner-update"><a href="https://govsb.ca/copilot" target="_blank">The VSB is currently rolling out Copilot 13+ AI into the school system. Read the announcement here.</a></div>
     <div id="opening">
     <h1 id="title">Dear VSB,</h1>
     <div style="text-align: center; margin-bottom: 2em;">
@@ -129,8 +129,8 @@ Sincerely,
       <div>Information about the latest happenings in relation to the VSB &amp; AI.</div>
       <div class="timeline-item timeline-item-2">
         <h2>VSB Rolls Out Copilot</h2>
-        <div><em>Spring, 2026</em></div>
-        <div>The school board is set to release Copilot in Secondary schools <a href="https://youtu.be/qcOn865EDLo" target="_blank">this spring</a>. The interview where this was explained is very interesting, you can <a href="https://www.aicaution.ca/news/cbc-interview-with-christina-walker/" target="_blank">read more here</a>.</div>
+        <div><em>May 28th, 2026</em></div>
+        <div>The VSB releases Copilot 13+. As of right now, it has been <a href="https://govsb.ca/copilot">announced</a> but not released. We will keep checking for updates.</div>
       </div>
       <svg width="32" id="mobile-timeline-line-1">
         <path
